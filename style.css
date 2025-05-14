@@ -1,0 +1,76 @@
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  justify-content: right;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.navbar ul li a:hover {
+  color: black;
+  background-color: grey;
+  transition-duration: 500ms;
+  text-decoration: underline;
+  transition-delay: 50ms;
+  gap:  2rem;
+}
+
+
+.login1 {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.aboutme1 {
+  width: 100px;
+}
+
+.tempat1 {
+  width: 100px;
+
+}
+
+.galeri1 {
+  width: 100px;
+}
